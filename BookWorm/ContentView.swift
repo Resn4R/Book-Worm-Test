@@ -4,17 +4,18 @@
 //
 //  Created by Vito Borghi on 19/10/2023.
 //
-
 import SwiftUI
 
 struct ContentView: View {
-    @AppStorage("notes") private var notes = ""
-    
+    @FetchRequest(sortDescriptors: []) var students: FetchedResults<Student>
+
     var body: some View {
-        NavigationView{
-            TextEditor(text: $notes)
-                .navigationTitle("Notes")
-                .padding()
+        VStack {
+            List(students) { student in
+                Text(student.name ?? "Unknown")
+            }
+            
+            
         }
     }
 }
@@ -22,3 +23,5 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
+
