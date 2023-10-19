@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("notes") private var notes = ""
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView{
+            TextEditor(text: $notes)
+                .navigationTitle("Notes")
+                .padding()
         }
-        .padding()
     }
 }
 
