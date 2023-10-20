@@ -13,6 +13,7 @@
 		4FDA12AC2AE18B6F005A7A64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDA12AB2AE18B6F005A7A64 /* Preview Assets.xcassets */; };
 		4FDA12B62AE1E144005A7A64 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA12B52AE1E144005A7A64 /* DataController.swift */; };
 		4FDA12B92AE1E3D3005A7A64 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA12B72AE1E3D3005A7A64 /* Bookworm.xcdatamodeld */; };
+		4FDA12BB2AE1EAF7005A7A64 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA12BA2AE1EAF7005A7A64 /* AddBookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		4FDA12AB2AE18B6F005A7A64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4FDA12B52AE1E144005A7A64 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		4FDA12B82AE1E3D3005A7A64 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
+		4FDA12BA2AE1EAF7005A7A64 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				4FDA12A62AE18B6E005A7A64 /* ContentView.swift */,
 				4FDA12B52AE1E144005A7A64 /* DataController.swift */,
 				4FDA12B72AE1E3D3005A7A64 /* Bookworm.xcdatamodeld */,
+				4FDA12BA2AE1EAF7005A7A64 /* AddBookView.swift */,
 				4FDA12A82AE18B6F005A7A64 /* Assets.xcassets */,
 				4FDA12AA2AE18B6F005A7A64 /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 				4FDA12B92AE1E3D3005A7A64 /* Bookworm.xcdatamodeld in Sources */,
 				4FDA12B62AE1E144005A7A64 /* DataController.swift in Sources */,
 				4FDA12A52AE18B6E005A7A64 /* BookWormApp.swift in Sources */,
+				4FDA12BB2AE1EAF7005A7A64 /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
