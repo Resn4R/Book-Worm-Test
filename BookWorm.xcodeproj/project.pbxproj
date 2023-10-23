@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F66F1D72AE6976100A4953E /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66F1D62AE6976100A4953E /* RatingView.swift */; };
 		4FDA12A52AE18B6E005A7A64 /* BookWormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA12A42AE18B6E005A7A64 /* BookWormApp.swift */; };
 		4FDA12A72AE18B6E005A7A64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA12A62AE18B6E005A7A64 /* ContentView.swift */; };
 		4FDA12A92AE18B6F005A7A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDA12A82AE18B6F005A7A64 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F66F1D62AE6976100A4953E /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		4FDA12A12AE18B6E005A7A64 /* BookWorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookWorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FDA12A42AE18B6E005A7A64 /* BookWormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookWormApp.swift; sourceTree = "<group>"; };
 		4FDA12A62AE18B6E005A7A64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				4FDA12B52AE1E144005A7A64 /* DataController.swift */,
 				4FDA12B72AE1E3D3005A7A64 /* Bookworm.xcdatamodeld */,
 				4FDA12BA2AE1EAF7005A7A64 /* AddBookView.swift */,
+				4F66F1D62AE6976100A4953E /* RatingView.swift */,
 				4FDA12A82AE18B6F005A7A64 /* Assets.xcassets */,
 				4FDA12AA2AE18B6F005A7A64 /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 				4FDA12A72AE18B6E005A7A64 /* ContentView.swift in Sources */,
 				4FDA12B92AE1E3D3005A7A64 /* Bookworm.xcdatamodeld in Sources */,
 				4FDA12B62AE1E144005A7A64 /* DataController.swift in Sources */,
+				4F66F1D72AE6976100A4953E /* RatingView.swift in Sources */,
 				4FDA12A52AE18B6E005A7A64 /* BookWormApp.swift in Sources */,
 				4FDA12BB2AE1EAF7005A7A64 /* AddBookView.swift in Sources */,
 			);
