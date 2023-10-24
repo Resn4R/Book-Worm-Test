@@ -16,6 +16,7 @@ struct AddBookView: View {
     @State private var rating = 3
     @State private var genre = ""
     @State private var review = ""
+    @State private var date = Date.now
     
     let genres = ["Fantasy", "Horror", "Kids", "Mystery", "Poetry", "Romance", "Thriller"]
     
@@ -31,6 +32,14 @@ struct AddBookView: View {
                         }
                     }
                 }
+                
+                Section {
+                    VStack{
+                        Text("When did you finish reading the book?")
+                        DatePicker("Finish date", selection: $date, displayedComponents: .date)
+                    }
+                }
+                
                 Section {
                     TextEditor(text: $review)
                     RatingView(rating: $rating)
