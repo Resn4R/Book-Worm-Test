@@ -38,6 +38,11 @@ struct DetailView: View {
             Text(book.review ?? "No review")
                 .padding()
             
+            if let finishDate = book.date?.formatted() {
+                Text(finishDate)
+                    .padding()
+            }
+            
             RatingView(rating: .constant((Int(book.rating))))
                 .font(.largeTitle)
         }
